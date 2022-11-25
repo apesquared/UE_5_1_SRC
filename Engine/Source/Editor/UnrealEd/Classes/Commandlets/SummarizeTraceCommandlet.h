@@ -7,7 +7,7 @@
 
 #pragma once
 #include "Commandlets/Commandlet.h"
-#include "TraceServices/Model/Counters.h"
+//#include "TraceServices/Model/Counters.h"
 #include "SummarizeTraceCommandlet.generated.h"
 
 UCLASS(config=Editor)
