@@ -140,6 +140,11 @@ public:
 
 	SScrollBar();
 
+	FORCEINLINE TSharedPtr<SScrollBarTrack> GetTrackConst() const
+	{
+		return Track;
+	}
+
 protected:
 	
 	/** Execute the on user scrolled delegate */

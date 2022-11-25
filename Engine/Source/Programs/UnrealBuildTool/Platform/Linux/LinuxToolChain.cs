@@ -531,6 +531,8 @@ namespace UnrealBuildTool
 				Arguments.Add("-mssse3"); // enable ssse3 by default for x86. This is default on for MSVC so lets reflect that here
 			}
 
+			Arguments.Add("-Wno-nonportable-include-path"); // To avoid Non-portable path to file error
+
 			//Arguments.Add("-DOPERATOR_NEW_INLINE=FORCENOINLINE");
 
 			if (CompileEnvironment.bIsBuildingDLL)

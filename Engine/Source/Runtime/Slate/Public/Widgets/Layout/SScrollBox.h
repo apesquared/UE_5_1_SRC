@@ -226,6 +226,16 @@ public:
 	void SetScrollBarPadding(const FMargin& InPadding);
 
 	void SetScrollBarRightClickDragAllowed(bool bIsAllowed);
+
+	FORCEINLINE TSharedPtr<SScrollBar> GetScrollBar()
+	{
+		return ScrollBar;
+	}
+
+	FORCEINLINE TSharedPtr<const SScrollBar> GetScrollBarConst() const
+	{
+		return ScrollBar;
+	}
 public:
 
 	// SWidget interface

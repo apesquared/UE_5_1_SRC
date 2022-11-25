@@ -182,6 +182,11 @@ public:
 	/** Sets the Background Brush */
 	void SetBackgroundBrush(const TAttribute<const FSlateBrush*>& InBackgroundBrush);
 
+	FORCEINLINE TSharedPtr<SScrollBar> GetScrollBar()
+	{
+		return ScrollBar;
+	}
+
 public:
 
 	// SWidget interface
