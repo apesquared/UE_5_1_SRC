@@ -10,7 +10,7 @@
 	"DocsURL": "https://docs.substance3d.com/display/integrations/Unreal+Engine",
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2f6439c2f9584f49809d9b13b16c2ba4",
 	"SupportURL": "",
-	"EngineVersion": "5.0.0",
+	"EngineVersion": "5.1",
 	"CanContainContent": true,
 	"Installed": true,
 	"Modules": [
